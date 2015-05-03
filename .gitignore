@@ -3,6 +3,7 @@
 *.ko
 *.obj
 *.elf
+*.d
 
 # Precompiled Headers
 *.gch
@@ -27,6 +28,12 @@
 *.i*86
 *.x86_64
 *.hex
+*.eep
+*.lss
 
 # Debug files
 *.dSYM/
+*.map
+
+# Automagically generated
+*.mk
