@@ -66,6 +66,12 @@ int main(void)
   xJoystickCenter /= NUM_CALIBRATIONS;
   yJoystickCenter /= NUM_CALIBRATIONS;
 
+  /* Set an ID to differentiate controllers. Must be compiled differently for controllers 1-4 */
+  /* SET_PLAYER(inputState, 0); */
+  SET_PLAYER(inputState, 1);
+  /* SET_PLAYER(inputState, 2); */
+  /* SET_PLAYER(inputState, 3); */
+
   /* Main Loop */
   while (1) {
 
